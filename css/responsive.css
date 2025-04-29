@@ -260,15 +260,19 @@
     }
     .webinar-hero{
         height: auto;
-        background: url(../images/phone-bg.png) center center no-repeat!important;
+        background: url(../images/ipad-bg.png) right center no-repeat!important;
         background-size: cover!important;
+        min-height: 400px!important;
     }
     .maintext {
-        width: 83%;
+        width: 51%;
         margin: 06% auto 0 6%;
     }
     .webinar-hero p{
         font-size: 20px;
+    }
+    .webinar-hero p{
+        margin-bottom: 50px;
     }
 
 }
@@ -435,6 +439,10 @@
     .gobal-webinar-btn{
         margin-top: 0;
     }
+    .maintext {
+        width: 100%;
+        margin: 0;
+    }
 }
 @media (max-width: 680px){
     .for-dektop{
@@ -495,6 +503,9 @@
     .webinar-hero p{
        
         margin-bottom: 30px;
+    }
+    .webinar-hero p{
+        margin-top: 20px;
     }
 }
 @media (max-width: 474px){
